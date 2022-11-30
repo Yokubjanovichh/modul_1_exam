@@ -1,0 +1,485 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+.wrapper {
+  width: 100%;
+  height: auto;
+  padding: 23px 0;
+}
+
+.container {
+  padding-left: 128px;
+  padding-right: 128px;
+}
+
+.navbar {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 68px;
+}
+
+.navbar-links {
+  margin-left: 350px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+
+.navbar-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+  margin-left: 151px;
+}
+
+.navbar-phone {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 19px;
+}
+
+.navbar-corzina {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 19px;
+}
+
+.corzina-logo {
+  display: flex;
+  position: relative;
+}
+
+.corzina-logo-img {
+  width: 18px;
+  height: 21px;
+}
+
+.corzina-logo p {
+  width: 16px;
+  height: 16px;
+  padding: 2px 5px;
+  border-radius: 50%;
+  background: #f1b301;
+  font-family: "Inter";
+  font-size: 8px;
+  line-height: 12px;
+  color: #ffffff;
+  position: absolute;
+  top: -6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: -8px;
+}
+
+.korzina-nomi p:nth-child(1) {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.korzina-nomi p:nth-child(2) {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.phone-namber .phone-code {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+.phone-namber .phone-tel {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.tayoq {
+  width: 1px;
+  height: 43px;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+  border: 1px solid #ffffff;
+}
+
+.navbar-links {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #222124;
+}
+
+.bluewoilet {
+  position: absolute;
+  width: 571px;
+  height: 800px;
+  top: 0px;
+  right: 0;
+  background: #800a7a;
+  z-index: -9999;
+}
+
+.biz-izlagan {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.biz-izlagan-text {
+  width: 50%;
+  display: block;
+}
+
+.biz-izlagan-text h1 {
+  width: 434px;
+  font-family: "Inter";
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 85px;
+  color: #222124;
+}
+
+.biz-izlagan-text p:nth-child(2) {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #222124;
+  margin: 14px 0 66px 0;
+}
+
+.ovqatlar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30px;
+}
+
+.hr {
+  width: 100%;
+  height: 1px;
+  mix-blend-mode: normal;
+  opacity: 0.2;
+  border: 1px solid #979797;
+  margin-bottom: 40px;
+}
+
+.menu {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 105px;
+}
+
+.menu a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #222124;
+}
+
+.barchasi {
+  padding: 15px 26px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+  background: #f1b301;
+  border-radius: 27px;
+}
+
+.filter {
+  padding: 15px 26px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  background: #f5f5f5;
+  border-radius: 27px;
+  color: #222124;
+}
+
+.pitsalarni-turlari {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.pitsalarni-turlari h1:first-child {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 63px;
+  color: #222124;
+  margin-bottom: 30px;
+}
+
+.menu-pitsa {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 105px;
+}
+
+.pizz-box {
+  width: 580px;
+  border: 1px solid rgba(151, 151, 151, 0.181927);
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  gap: 41px;
+  margin-bottom: 30px;
+}
+
+.pizz-img {
+  position: relative;
+}
+
+.pizz-img p:first-child {
+  position: absolute;
+  padding: 9px 13px;
+  background: rgba(255, 255, 255, 0.249235);
+  box-shadow: 0px 7px 40px rgba(238, 39, 68, 0.355086);
+  backdrop-filter: blur(4.07742px);
+  border-radius: 25px;
+}
+
+.pizza-box-text p:first-child {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #222124;
+}
+
+.pizza-box-text p:first-child span {
+  margin-left: 20px;
+}
+
+.pizza-box-text p:nth-child(2) {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #222124;
+  mix-blend-mode: normal;
+  opacity: 0.4;
+  margin: 10px 0px 33px 0;
+}
+
+.pizza-box-narx {
+  display: flex;
+  align-items: center;
+  gap: 67px;
+}
+
+.pizza-box-narx p {
+  font-family: "Inter";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 29px;
+  color: #222124;
+}
+
+.pizza-box-narx a {
+  width: 50px;
+  height: 50px;
+  padding: 18px;
+  color: #fff;
+  border-radius: 50%;
+  background: #f1b301;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+}
+
+.mobil-ilova {
+  width: 100%;
+  height: 501px;
+  height: auto;
+  background: #800a7a;
+  display: flex;
+  padding: 40px 0px 100px 128px;
+  margin-bottom: 98px;
+}
+
+.mobi-ilova-text {
+  width: 45%;
+  display: block;
+}
+
+.mobil-ilova .mobi-ilova-text h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 63px;
+  color: #ffffff;
+  margin-bottom: 63px;
+}
+
+.mobil-ilova .mobi-ilova-text .buttons {
+  display: flex;
+  gap: 30px;
+}
+
+.mobil-ilova .mobi-ilova-text .buttons a {
+  border: 1px solid rgba(255, 255, 255, 0.292941);
+  backdrop-filter: blur(13.5914px);
+  border-radius: 46px;
+  padding: 17px 31px;
+}
+
+.mobil-ilova .telefon {
+  width: 50%;
+  position: relative;
+}
+
+.mobil-ilova .telefon img {
+  width: 130%;
+  position: absolute;
+  top: -220px;
+  left: -100px;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.footer-1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-logo {
+  margin-right: 138px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 84px;
+  margin-right: 353px;
+}
+
+.footer-link-box p {
+  font-family: "ProximaNova";
+  font-size: 14px;
+  line-height: 34px;
+  color: #222124;
+}
+
+.footer-link-box p a {
+  font-family: "ProximaNova";
+  font-size: 20px;
+  line-height: 18px;
+  color: #003846;
+  margin-bottom: 24px;
+}
+
+.footer-info {
+  display: block;
+}
+
+.footer-info .footer-info-asosiy a {
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 18px;
+  color: #222124;
+}
+
+.footer-info p:nth-child(2) {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 33px;
+  color: #222124;
+  margin-bottom: 13px;
+  margin-top: 33px;
+}
+
+.footer-info p:nth-child(3) {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #222124;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+}
+
+.footer-hr {
+  width: 100%;
+  height: 1px;
+  mix-blend-mode: normal;
+  opacity: 0.3;
+  border: 1px solid #979797;
+  margin: 40px 0 31px 0;
+}
+
+.footer-social {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-social .networks {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  margin-right: 40px;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
